@@ -3,13 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --https",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^1.6.1",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "jquery": "^3.7.1",
+    "jsonwebtoken": "^9.0.2",
+    "vue": "^3.2.13",
+    "vue-google-oauth2": "^1.5.10",
+    "vue-google-signin-button-directive": "^1.0.3",
+    "vue-router": "^4.2.5",
+    "vue3-google-login": "^2.0.25",
+    "vue3-google-oauth2": "^1.0.7",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
